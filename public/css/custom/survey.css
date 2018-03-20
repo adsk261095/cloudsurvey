@@ -1,0 +1,226 @@
+html,body{  
+    margin:0;
+    padding: 0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    max-height:100%;
+    width:100%;
+    overflow: auto;
+    background-color: #F0F3F5;
+}
+.nav{
+    width: 100%;
+    height:6%;
+    background-color:#57B2F8;
+}
+  #admin{
+    background-color:#ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    color:#000000;
+    font-size: 100%;
+    width:5%;
+    height:65%;
+    margin-right:2%;
+    margin-top:1%;
+    float: right;
+  }
+  #admin:hover{
+    width:7%;
+    height:70%;
+    cursor: pointer;
+  }
+   #logout{
+    background-color:#ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #ffffff;
+    color:#000000;
+    font-size: 100%;
+    width:5%;
+    height:65%;
+    margin-right:2%;
+    margin-top:1%;
+    float: right;
+  }
+  #logout:hover{
+    width:7%;
+    height:70%;
+    cursor: pointer;
+  }
+#save{
+    background-color: #57B2F8;
+    color:#ffffff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+#image{
+    position: relative;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 100%;
+    margin-bottom: 5%;
+    width:15%;
+    height:7%;
+    margin:auto;
+
+}
+#profile_img{
+    width:100%;
+    height:100%;
+    border-radius: 100%;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 100%;
+}
+
+#image:hover #profile_img {
+  opacity: 0.3;
+}
+
+#image:hover .middle {
+  opacity: .5;
+}
+
+.text {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  padding: 16px 32px;
+  
+}
+
+.container {
+    margin-top:5%;
+    margin-bottom:5%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    width:80%;
+}
+.name{
+    margin-top: 12px;
+}
+.error{
+    color:red;
+    margin-top:0px;
+}
+.rows{
+  float:left;
+  width:20%;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F3F5;
+}
+#piechart{
+  margin-top:5%;
+  margin-bottom:5%;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  width:80%;
+  height:50%;
+  margin: auto;
+}
+h5{
+  text-align: center;
+}
+#chart{
+  height:90%;
+}
+#send{
+  margin-left: 40%;
+  text-align: center;
+  background-color:#57B2F8 ;
+  color: #fff;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.checkbox .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+ #go_back{
+      color:#57B2F8;
+      margin:auto;
+      text-align: center;
+      
+    }

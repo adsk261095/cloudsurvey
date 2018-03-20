@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/library/jquery.min.js"></script>
+  <script src="../js/library/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/custom/survey.css">
+  <link rel="stylesheet" href="../css/library/w3.css">
+  <script src="../js/custom/logout.js"></script>
+  <script src="../js/custom/survey.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>CloudSurvey</title>
+</head>
+<body>
+  <div class="nav">
+    <button id="admin">Admin</button>
+  </div>
+  <div class="container">
+      
+
+      <label class="name">Name</label>
+      <input type="text" id="student_name" placeholder="name..">
+      <label id="student_name_error" class="error"></label><br>
+
+      <label class="name">SID</label>
+      <input type="text" id="sid" placeholder="SID">
+      <label id="sid_error" class="error"></label><br>
+
+      <label class="name">CGPA</label>
+      <input type="text" id="cgpa" placeholder="cgpa..(eg- 8.52)">
+      <label id="cgpa_error" class="error"></label><br>
+
+      <label class="name">Intrested In:</label>
+      <label class="checkbox">Placement
+        <input type="radio" name="radio" checked="true" value="Placement">
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox">MS
+        <input type="radio" name="radio" value="MS">
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox">MBA
+        <input type="radio" name="radio" value="MBA">
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox">MTech
+        <input type="radio" name="radio" value="MTech">
+        <span class="checkmark"></span>
+      </label>
+      
+      <button id="send" class="w3-btn w3-round-small">Send</button>
+      <!-- <label class="name">University Name</label>
+      <input type="text" id="university_name" placeholder="university name..">
+      <label id="university_name_error" class="error"></label><br>
+
+      <label class="name">City</label>
+      <input type="text" id="city" placeholder="city..">
+      <label id="city_error" class="error"></label><br> -->
+
+  </div>
+</body>
+</html>
