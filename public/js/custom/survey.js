@@ -47,7 +47,7 @@ function send()
 	}
 	if ((isNaN(sid_int) || sid_int < 10000000 || sid_int > 100000000)||(sid.value).length==0) 
 	{
-    	sid_error.innerHTML="invalid cgpa";
+    	sid_error.innerHTML="invalid sid";
     	s=1;
 	}
 	if ((isNaN(cgpa_float) || cgpa_float < 0 || cgpa_float > 10)||(cgpa.value).length==0) 
